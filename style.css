@@ -191,7 +191,10 @@ h3{
 /* -----------------EVENTS-------------------------- */
 section{
     width: 80%;
-    margin: 80px auto;
+    /* margin: 80px auto; */
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
 }
 
 .title{
@@ -386,6 +389,8 @@ p{
     background: #fff;
     padding: 25px;
     border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    
 }
 
 .enroll-ctn header{
@@ -424,5 +429,23 @@ p{
 .form .column{
     display: flex;
     column-gap: 15px;
+}
+
+
+.form button{
+    height: 55px;
+    width: 100%;
+    color: #fff;
+    font-size: 1rem;
+    border: none;
+    margin-top: 30px;
+    cursor: pointer;
+    border-radius: 6px;
+    font-weight: 400;
+     background-color: red; 
+}
+
+.form button:hover{
+    background-color: blue;
 }
 
